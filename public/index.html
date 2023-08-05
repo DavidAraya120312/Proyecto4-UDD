@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Carne a Las Brasas</title>
+    
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="archivos.js">
+</head>
+<body>
+ 
+
+
+    <nav>
+
+        <div class="logo">
+            <img src="imagenes/carne a las brasas.img.jpg" alt="">
+
+        </div>
+        
+        <h1>Carne a las Brasas</h1>
+        <div class="onglets">
+            <a href="#">Inicio</a>
+            <a href="#produits">Platos</a>
+            <a href="#contact">Reserva</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1 class="texto-con-sombra">Carne a las brasas,</h1>
+        <h4 class="texto-con-sombra">El arte de Preparar Carne.</h4>
+        <button>Reserva</button>
+    </header>
+
+    <section class="main" id="produits">
+
+        <div class="content">
+            <div class="card">
+                <div class="left">
+                    <h1>Comparte con Nosotros</h1>
+                    <p>Disfruta los mejores cortes preparados por los mejores parrilleros dell mundo, vive la experiencia de Carnes a las Brasas.</p>
+                </div>
+                <div class="right">
+                    <img src="https://www.calgaryhispano.com/wp-content/uploads/2021/04/trabajos-en-calgary-3.jpg" alt="">
+                </div>
+            </div>
+
+           
+
+            <div class="card">
+                <div class="left">
+                    <h1>Nuestras carnes</h1>
+                    <p>La carne Wagyu es una carne de res de alta calidad, conocida por su sabor distintivo y textura marmoleada. Proviene de una raza de ganado japonés y es apreciada por su terneza y jugosidad. Su crianza y alimentación especial contribuyen a su exclusividad y valor en el mercado. </p>
+                </div>
+                <div class="right">
+                    <img src="https://editorialtelevisa.brightspotcdn.com/dims4/default/8cdb6b0/2147483647/strip/false/crop/1195x672+3+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.amazonaws.com%2Fbrightspot%2Fwp-content%2Fuploads%2F2019%2F05%2Fcortes-de-carne.jpg" alt="">
+                </div>
+            </div>
+
+            <div id="root"></div>
+        </div>
+    </section>
+
+    <footer>
+
+        <h1>Nosotros</h1>
+        <div class="services">
+            
+            <div class="service">
+                <h3>Compromiso</h3>
+                <p>En Carne a las Brasas llevamos más de 20 años de tradición asumiendo un compromiso simple e inquebrantable con la buena comida y el servicio, con el único fin de convertir momentos cotidianos en experiencias memorables.</p>
+            </div>
+
+            <div class="service">
+                <h3>Historia</h3>
+                <p>En 1990 se abrio nuestra primer sede, la pasión y calidad culinaria la convirtieron en una referente regional, dejando un legado de sabores inolvidables.</p>
+            </div>
+
+            <div class="service">
+                <h3>Sedes</h3>
+                <p>-Santiago</p>
+                <p>-Viña del mar</p>
+                <p>-Concepcion</p>
+                <p>-Chillán</p>
+                <p>-San pedro de la Paz</p>
+            </div>
+
+        </div>
+
+        <p id="contact">Contacto : 08 19 17 278 1 | &copy; 2023, Proyecto 4 UDD.</p>
+    </footer>
+
+   
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDMB7_3TqYlq6RaGYjuPvy-7s7q4aVN0bY",
+          authDomain: "formulario-de-reservas4.firebaseapp.com",
+          projectId: "formulario-de-reservas4",
+          storageBucket: "formulario-de-reservas4.appspot.com",
+          messagingSenderId: "81572641131",
+          appId: "1:81572641131:web:a29a4fc89642d5e8f8b42e",
+          measurementId: "G-NS5RJB5Z9L"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+
+<script src="archivos.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
+</body>
+</html>
