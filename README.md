@@ -1,6 +1,5 @@
-Proyecto 4 restauran
-
-
+Proyecto 4 restauran app
+plataforma para restaurant en el cual se pueden hacer reservas 
 
 
 # Getting Started with Create React App
